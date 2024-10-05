@@ -1,0 +1,10 @@
+# Ignore all .pt files
+*.pt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache directories
+__pycache__/
+
+*.gar.tz
