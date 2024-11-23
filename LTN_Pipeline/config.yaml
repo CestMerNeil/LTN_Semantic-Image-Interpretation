@@ -1,0 +1,18 @@
+# Dataset Settings
+
+dataset: carparts
+dataset_path: datasets/carparts-seg
+
+# Model Settings
+model: yolov8
+model_path: pretrained/yolov8n-seg.pt
+
+# Training Settings
+img_size: 640
+batch_size: 64
+epochs: 100
+device: cpu
+num_workers: 4
+save_dir: runs/
+eval_freq: 10
+save_freq: 5

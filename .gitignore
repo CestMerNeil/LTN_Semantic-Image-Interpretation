@@ -1,10 +1,14 @@
 # Ignore all .pt files
 *.pt
 
+.DS_Store
+
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Ignore Python cache directories
 __pycache__/
+
+LTN_CIFAR10/data/
 
 *.gar.tz

@@ -1,0 +1,52 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.engine
+yolov8*
+
+# Data and logs
+data/
+logs/
+runs/
+/wandb/
+
+# Environment
+.env
+venv/
+.venv/
+env/
+.python-version
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Distributed training
+*.lock
+
+# Datasets
+*.zip
+datasets/*
